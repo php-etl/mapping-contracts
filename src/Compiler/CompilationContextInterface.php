@@ -2,7 +2,7 @@
 
 namespace Kiboko\Contract\Mapping\Compiler;
 
-use Kiboko\Contract\Mapping\ClassMetadataInterface;
+use Kiboko\Contract\Metadata\ClassMetadataInterface;
 use Symfony\Component\PropertyAccess\PropertyPathInterface;
 
 interface CompilationContextInterface
