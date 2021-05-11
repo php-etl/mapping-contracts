@@ -6,6 +6,8 @@ use PhpParser\Node;
 
 interface CompilableInterface
 {
+    public function addContextVariable(Node\Expr\Variable $variable): CompilableInterface;
+
     /**
      * @return Node[]
      */
