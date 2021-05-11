@@ -6,4 +6,5 @@ use PhpParser\Node;
 
 interface CompilableMapperInterface extends MapperInterface, CompilableInterface
 {
+    public function addContextVariable(Node\Expr\Variable $variable): CompilableInterface;
 }
