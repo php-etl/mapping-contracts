@@ -7,7 +7,7 @@ use PhpParser\Node;
 interface CompilableInterface
 {
     /**
-     * @return Node[]
+     * @return array<Node>
      */
     public function compile(Node\Expr $outputNode): array;
 }

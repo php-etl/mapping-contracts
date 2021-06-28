@@ -7,6 +7,7 @@ use Symfony\Component\PropertyAccess\PropertyPathInterface;
 
 interface CompilationContextInterface
 {
+    /** @return PropertyPathInterface<string> */
     public function getPropertyPath(): PropertyPathInterface;
 
     public function getFilePath(): ?string;
