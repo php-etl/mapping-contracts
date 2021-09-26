@@ -1,8 +1,9 @@
 {
     "name": "php-etl/mapping-contracts",
-    "description": "Interfaces for FastMap",
+    "description": "Contracts for building compiled data mappers",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Kiboko SAS",
@@ -13,8 +14,6 @@
             "email": "gregory@kiboko.fr"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "require": {
         "php": "^8.0",
         "nikic/php-parser": "^4.10",
