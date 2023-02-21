@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Kiboko\Contract\Mapping\Compiler\Strategy;
 
 use Kiboko\Contract\Mapping\CompilableMapperInterface;
@@ -14,8 +16,7 @@ interface StrategyInterface
      * @template OutputType
      * @template ReturnType
      *
-     * @param PropertyPathInterface<string> $outputPath
-     * @param ClassMetadataInterface $class
+     * @param PropertyPathInterface<string>                                $outputPath
      * @param CompilableMapperInterface<InputType, OutputType, ReturnType> ...$mappers
      *
      * @return array<Node>

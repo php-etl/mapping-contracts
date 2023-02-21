@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Kiboko\Contract\Mapping\Compiler;
 
 use Kiboko\Contract\Metadata\ClassMetadataInterface;
@@ -13,6 +15,8 @@ interface CompilationContextInterface
     public function getFilePath(): ?string;
 
     public function getClass(): ?ClassMetadataInterface;
+
     public function getNamespace(): ?string;
+
     public function getClassName(): ?string;
 }

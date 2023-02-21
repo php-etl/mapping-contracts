@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace Kiboko\Contract\Mapping;
 
@@ -10,8 +12,8 @@ namespace Kiboko\Contract\Mapping;
 interface FieldScopingInterface
 {
     /**
-     * @param InputType $input
-     * @param null|OutputType $output
+     * @param InputType       $input
+     * @param OutputType|null $output
      *
      * @return ReturnType
      */
