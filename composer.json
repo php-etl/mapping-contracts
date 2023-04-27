@@ -18,7 +18,7 @@
         "php": "^8.2",
         "nikic/php-parser": "^4.10",
         "symfony/property-access": "^6.0",
-        "php-etl/metadata-contracts": "0.2.0"
+        "php-etl/metadata-contracts": "0.2.*"
     },
     "autoload": {
         "psr-4": {
