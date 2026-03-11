@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": "^8.4",
-        "nikic/php-parser": "^4.15",
+        "nikic/php-parser": "^5.6",
         "symfony/property-access": "^6.0",
         "php-etl/metadata-contracts": "0.2.*"
     },
